@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/simpleCal"
+        android:title="简易计算器"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/functionCal"
+        android:title="函数计算器"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/unitCal"
+        android:title="单位换算器"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/length"
+                android:title="长度"/>
+            <item
+                android:id="@+id/volume"
+                android:title="体积"/>
+            <item
+                android:id="@+id/area"
+                android:title="面积"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/systemCal"
+        android:title="进制转换器"
+        app:showAsAction="never" />
+</menu>
